@@ -24,3 +24,69 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+
+
+body {
+  text-align: center;
+    /* The border is just for me to fiqure 
+    out which one is this 
+    and checking if it's been centred */
+  border: 1px dotted red;
+  padding: 16px;
+}
+
+
+.title {
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+    /* The border is just for me to fiqure 
+    out which one is this 
+    and checking if it's been centred */
+  border: 1px solid darkmagenta;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 52px;
+    /* The border is just for me to fiqure 
+    out which one is this 
+    and checking if it's been centred */
+  border: 1px dotted  purple;
+  padding: 16px;
+
+}
+
+
+.first-box {
+  max-width: 200px;
+    /* The border is just for me to fiqure 
+    out which one is this 
+    and checking if it's been centred */
+  border: 1px solid goldenrod;
+  padding: 16px;
+}
+
+
+
+.text {
+  display: flex;
+  flex-direction: column;
+  border: 1px dotted salmon;
+    /* The border is just for me to fiqure 
+    out which one is this 
+    and checking if it's been centred */
+  justify-content: center;
+}
+
+
+img {
+    /* The border is just for me to fiqure 
+    out which one is this 
+    and checking if it's been centred */
+  border: 1px dotted orchid
+}
